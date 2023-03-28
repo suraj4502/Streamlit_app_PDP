@@ -85,11 +85,11 @@ elif st.session_state["authentication_status"]:
     authenticator.logout('Logout', 'sidebar')
     st.title('Plant Disease Prediction Using Deep Learning 🌳🤖.')
     
-    f_expand = st.expander("Uploading an image of the plant")
+    f_expand = st.expander(" **Uploading an image using this button.**")
     
     with f_expand:
     
-        image_1 = st.file_uploader("Upload the plants Image:" ,type = ['jpg', 'jpeg', 'png'])
+        image_1 = st.file_uploader("Upload the plants Image : 🌱" ,type = ['jpg', 'jpeg', 'png'])
         if image_1 is not None:
             my_bar = st.progress(value=0)
             for percent_complete in range(100):
@@ -104,14 +104,14 @@ elif st.session_state["authentication_status"]:
                     st.success(f'###### predicted Class of plant : _**{json_obj["class"]}**_')
                     st.success(f"###### with confidence : _**{json_obj['confidence']}**_")
                 else:
-                    st.error(f'Error processing image: *{response.text}*')
+                    st.error(f'Error processing image : *{response.text}*')
             except Exception as e:
                 st.error(f'Error processing image: {e}')
                 
-    c_expand = st.expander("Taking an image of the plant")
+    # c_expand = st.expander("Taking an image of the plant")
     
-    
-    image_1 = st.camera_input(" Take a plants Image:")
+    st.subheader("Camera Input 📸")
+    image_1 = st.camera_input("Take a plants Image :")
     if image_1 is not None:
             try:
                 my_bar = st.progress(value=0)

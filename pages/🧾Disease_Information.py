@@ -2,7 +2,7 @@ import streamlit as st
 from streamlit_extras.app_logo import add_logo
 
 st.set_page_config(page_title="Description", page_icon="😵‍💫", layout="centered")
-add_logo('SKY1.PNG')
+add_logo('logo/SKY1.PNG')
 
 st.title("Common Plant Diseases and Prevention Methods")
 
@@ -174,3 +174,36 @@ with pexp:
     ---            
                 
                 """)
+    
+    
+st.sidebar.markdown("\n")   
+st.sidebar.markdown("\n") 
+st.sidebar.markdown("\n")  
+st.sidebar.markdown("\n") 
+st.sidebar.markdown("\n") 
+st.sidebar.markdown("\n") 
+st.sidebar.markdown("\n") 
+st.sidebar.markdown("\n") 
+st.sidebar.markdown("\n") 
+st.sidebar.markdown("\n") 
+st.sidebar.markdown("\n") 
+
+st.sidebar.markdown("\n")   
+st.sidebar.markdown("\n") 
+st.sidebar.markdown("\n")  
+st.sidebar.markdown("\n") 
+st.sidebar.markdown("\n")  
+st.sidebar.markdown("\n") 
+st.sidebar.markdown("\n")   
+st.sidebar.markdown("\n") 
+st.sidebar.markdown("\n")  
+st.sidebar.markdown("\n") 
+st.sidebar.markdown("\n")  
+
+
+
+# st.sidebar.markdown("---")
+st.sidebar.markdown("- Developed by `SKY`.   ⇨[github ](https://github.com/suraj4502), [Linkedin](https://www.linkedin.com/in/surajkumar-yadav-6ab2011a4/), [Ig](https://www.instagram.com/suraj452/).")
+# st.sidebar.markdown("---")
+    
+    

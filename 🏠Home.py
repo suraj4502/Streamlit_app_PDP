@@ -85,6 +85,10 @@ elif st.session_state["authentication_status"]:
     authenticator.logout('Logout', 'sidebar')
     st.title('Plant Disease Prediction Using Deep Learning 🌳🤖.')
     
+    st.markdown("---")
+    
+    st.subheader("File Input 📁")
+    
     f_expand = st.expander(" Uploading an image using this button.")
     
     with f_expand:
@@ -109,6 +113,7 @@ elif st.session_state["authentication_status"]:
                 st.error(f'Error processing image: {e}')
                 
     # c_expand = st.expander("Taking an image of the plant")
+    st.markdown("---")
     
     st.subheader("Camera Input 📸")
     image_1 = st.camera_input("Take a plants Image :")

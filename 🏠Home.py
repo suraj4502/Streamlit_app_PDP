@@ -91,7 +91,7 @@ elif st.session_state["authentication_status"]:
     
         image_1 = st.file_uploader("Upload the plants Image:" ,type = ['jpg', 'jpeg', 'png'])
         if image_1 is not None:
-            my_bar = st.progress(0, "uploding...")
+            my_bar = st.progress(value=0,text= "uploding...")
             for percent_complete in range(100):
                 time.sleep(0.001)
                 my_bar.progress(percent_complete + 1, text='uploding')

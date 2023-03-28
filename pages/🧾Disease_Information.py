@@ -2,7 +2,7 @@ import streamlit as st
 from streamlit_extras.app_logo import add_logo
 
 st.set_page_config(page_title="Description", page_icon="😵‍💫", layout="centered")
-add_logo('logo/SKY1.PNG')
+add_logo('logo/SKY1.png')
 
 st.title("Common Plant Diseases and Prevention Methods")
 

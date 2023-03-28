@@ -85,7 +85,7 @@ elif st.session_state["authentication_status"]:
     authenticator.logout('Logout', 'sidebar')
     st.title('Plant Disease Prediction Using Deep Learning 🌳🤖.')
     
-    f_expand = st.expander(" **Uploading an image using this button.**")
+    f_expand = st.expander(" Uploading an image using this button.")
     
     with f_expand:
     

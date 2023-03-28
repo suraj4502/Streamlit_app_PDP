@@ -1,0 +1,21 @@
+cookie:
+  expiry_days: 30
+  key: suraj
+  name: suraj's_cookeie
+credentials:
+  usernames:
+    abc123:
+      email: abc@gmail.com
+      name: abc
+      password: $2b$12$jv/GdEatKBiqpobrBw1poeBdFyg6/NyGKF2zuKl6ZlVKKFFy8Cwe2
+    admin:
+      email: admin@gmail.com
+      name: Adminstrator
+      password: $2b$12$dGPSdf/64x2j4vaYUctDzeB8ay86fMqhVCk/6wwV7Grl8PH3PAi1u
+    suraj02:
+      email: sy820860@gmail.com
+      name: Surajkumar Yadav
+      password: $2b$12$aPevOS0wVmI6aDchYEdREOV7bU5LozHIEMKDirYsvtlpXzMUFHqPi
+preauthorized:
+  emails:
+  - sky820860@gmail.com

@@ -15,7 +15,7 @@ url = "https://us-central1-light-ratio-381415.cloudfunctions.net/predict"
 
 st.set_page_config(page_title="A SkY product", page_icon="🌳", layout="centered")
 
-add_logo('logo\SKY1.png')
+add_logo('logo/SKY1.png')
 
 with open('cred.yaml') as file:
     config = yaml.load(file, Loader=SafeLoader)

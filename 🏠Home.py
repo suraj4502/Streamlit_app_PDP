@@ -114,6 +114,10 @@ elif st.session_state["authentication_status"]:
     image_1 = st.camera_input(" Take a plants Image:")
     if image_1 is not None:
             try:
+                my_bar = st.progress(value=0)
+                for percent_complete in range(100):
+                    time.sleep(0.01)
+                my_bar.progress(percent_complete + 1)
                 response = requests.post(url, files={'file': image_1})
                 if response.status_code == 200:
                     json_obj = json.loads(response.content)
